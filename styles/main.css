@@ -32,7 +32,7 @@ body{
 
 .fullName {
   float:left;
-  margin: 40px;
+  margin: 25px;
 }
 
 .mobile-nav {
@@ -46,7 +46,7 @@ body{
 .mobile-header {
   display: inline;
   float: right;
-  margin: 40px;
+  margin: 25px;
 }
 
 .mobile-header a {
@@ -128,21 +128,43 @@ body{
 
 /* PORTFOLIO */
 #projects {
+  position: relative;
   background: #eee;
   height: auto;
   text-align: center;
   padding: 60px 0 60px 0;
   font-size: 26px;
   line-height: 40px;
+  /*display: inline;*/
 }
 
-.project_column {
-  width: 45%;
-  margin: 20px;
-  background-color: white;
-  display: inline-block;
+#project-list{
+    margin: 20px auto;
+    position: relative;
+    width: 1000px;
+    height: 600px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
 }
 
+#project-list div {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    width: auto;
+    height: auto;
+}
+
+#leftclick {
+  font-size: 20px;
+  border: none;
+}
+
+#rightclick {
+  font-size: 20px;
+  border: none;
+}
 
 /* FOOTER */
 #footer {
